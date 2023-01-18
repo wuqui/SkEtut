@@ -29,8 +29,8 @@ format:
 You can find all materials on this GitHub repo: <https://github.com/wuqui/SkEtut>
 
 - website: <https://wuqui.github.io/SkEtut/>
-- slides: <https://wuqui.github.io/SkEtut/tree/main/docs/SkEtut_slides.html>
-- `pdf` handout: <https://wuqui.github.io/SkEtut/tree/main/docs/SkEtut_handout.pdf>
+- slides: <https://wuqui.github.io/SkEtut/SkEtut_slides.html>
+- `pdf` handout: <https://wuqui.github.io/SkEtut/SkEtut_handout.pdf>
 - data: <https://github.com/wuqui/SkEtut/tree/main/data>
 - results: <https://github.com/wuqui/SkEtut/tree/main/export>
 
