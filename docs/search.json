@@ -4,7 +4,42 @@
     "href": "SkEtut.html",
     "title": "Sketch Engine tutorial",
     "section": "",
-    "text": "https://www.sketchengine.eu\n\n\n\n\nfunded by Projektfond des Nachwuchsförderungsprogramms der Fak. 13 (thanks to Susanne Handl for her help)\nfunding secured for 2023 – hopefully longer?\naccess: all LMU members (students and researchers) can access SkE using their LMU-Kennung\nplease let me know if you use it\n\n\n\n\n\nAntConc\nLancsBox\nWordSmith\n\n\n\n\ncorpus management\n\ncreating corpora from your own data\nhosting these corpora online\nannotating corpora\nsharing your corpora\n\n\ncorpus analysis\n\naccess to many pre-loaded corpora\nsimple and complex queries\nconcordances\ncollocation analysis\ntext type analysis\n\n\n\n\n\nhttps://www.sketchengine.eu/quick-start-guide/\nhttps://www.sketchengine.eu/guide/"
+    "text": "You can find all materials on this GitHub repo: https://github.com/wuqui/SkEtut\n\nwebsite: https://wuqui.github.io/SkEtut/\nslides: https://wuqui.github.io/SkEtut/tree/main/docs/SkEtut_slides.html\npdf handout: https://wuqui.github.io/SkEtut/tree/main/docs/SkEtut_handout.pdf\ndata: https://github.com/wuqui/SkEtut/tree/main/data\nresults: https://github.com/wuqui/SkEtut/tree/main/export\n\nI will continue to work on these materials and would appreciate questions, comments, and suggestions via mail or on GitHub."
+  },
+  {
+    "objectID": "SkEtut.html#what-is-sketch-engine",
+    "href": "SkEtut.html#what-is-sketch-engine",
+    "title": "Sketch Engine tutorial",
+    "section": "What is Sketch Engine?",
+    "text": "What is Sketch Engine?\n\nhttps://www.sketchengine.eu"
+  },
+  {
+    "objectID": "SkEtut.html#lmu-license",
+    "href": "SkEtut.html#lmu-license",
+    "title": "Sketch Engine tutorial",
+    "section": "LMU license",
+    "text": "LMU license\n\nfunded by Projektfond des Nachwuchsförderungsprogramms der Fak. 13 (thanks to Susanne Handl for her help)\nfunding secured for 2023 – hopefully longer?\naccess: all LMU members (students and researchers) can access SkE using their LMU-Kennung\nplease let me know if you use it"
+  },
+  {
+    "objectID": "SkEtut.html#related-tools",
+    "href": "SkEtut.html#related-tools",
+    "title": "Sketch Engine tutorial",
+    "section": "Related tools",
+    "text": "Related tools\n\nAntConc\nLancsBox\nWordSmith"
+  },
+  {
+    "objectID": "SkEtut.html#main-features",
+    "href": "SkEtut.html#main-features",
+    "title": "Sketch Engine tutorial",
+    "section": "Main features",
+    "text": "Main features\ncorpus management\n\ncreating corpora from your own data\nhosting these corpora online\nannotating corpora\nsharing your corpora\n\n\ncorpus analysis\n\naccess to many pre-loaded corpora\nsimple and complex queries\nconcordances\ncollocation analysis\ntext type analysis"
+  },
+  {
+    "objectID": "SkEtut.html#resources",
+    "href": "SkEtut.html#resources",
+    "title": "Sketch Engine tutorial",
+    "section": "Resources",
+    "text": "Resources\nhttps://www.sketchengine.eu/quick-start-guide/\nhttps://www.sketchengine.eu/guide/"
   },
   {
     "objectID": "SkEtut.html#data-format",
