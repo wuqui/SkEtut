@@ -24,7 +24,7 @@ format:
     output-ext: "pdf"
 ---
 
-# Tutorial materials
+# Tutorial materials {.smaller}
 
 You can find all materials on this GitHub repo: <https://github.com/wuqui/SkEtut>
 
