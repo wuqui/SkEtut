@@ -6,4 +6,4 @@ A Sketch Engine tutorial.
 - data: <https://github.com/wuqui/SkEtut/tree/main/data>
 - results: <https://github.com/wuqui/SkEtut/tree/main/export>
 
-I will continue to work on these materials and would appreciate questions, comments, and suggestions via mail or on GitHub.
+I will continue to work on these materials and would appreciate questions, comments, and contributions via mail or on GitHub.
