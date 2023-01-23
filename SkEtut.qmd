@@ -2,7 +2,7 @@
 title: Sketch Engine tutorial
 subtitle: English Linguistics Colloquium, LMU Munich
 author: Quirin Würschinger
-date: 2023-01-19
+# date: 2023-01-19
 date-format: long
 format:
   revealjs:
@@ -15,13 +15,13 @@ format:
     toc: true
     toc-depth: 2
     link-external-newwindow: true
-  pdf:
-    number-sections: true
-    number-depth: 2
-    toc: true
-    toc-depth: 2
-    output-file: "SkEtut_handout"
-    output-ext: "pdf"
+  # pdf:
+  #   number-sections: true
+  #   number-depth: 2
+  #   toc: true
+  #   toc-depth: 2
+  #   output-file: "SkEtut_handout"
+  #   output-ext: "pdf"
 ---
 
 # Tutorial materials {.smaller}
