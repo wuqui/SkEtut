@@ -1,6 +1,5 @@
 ---
 title: Sketch Engine tutorial
-subtitle: English Linguistics Colloquium, LMU Munich
 author: Quirin Würschinger
 # date: 2023-01-19
 date-format: long
