@@ -7,20 +7,6 @@ format:
   revealjs:
     embed-resources: true
     slide-number: true
-    output-file: "SkEtut_slides"
-    output-ext: "html"
-  html:
-    embed-resources: true
-    toc: true
-    toc-depth: 2
-    link-external-newwindow: true
-  # pdf:
-  #   number-sections: true
-  #   number-depth: 2
-  #   toc: true
-  #   toc-depth: 2
-  #   output-file: "SkEtut_handout"
-  #   output-ext: "pdf"
 ---
 
 # Tutorial materials {.smaller}
@@ -43,18 +29,14 @@ I will continue to work on these materials and would appreciate questions, comme
 
 <https://www.sketchengine.eu>
 
-## LMU license
-
-- funded by Projektfond des Nachwuchsförderungsprogramms der Fak. 13 (thanks to Susanne Handl for her help)
-- funding secured for 2023 – hopefully longer?
-- access: **all** LMU members (students and researchers) can access SkE using their LMU-Kennung
-- please let me know if you use it
 
 ## Related tools
 
 - [AntConc](https://www.laurenceanthony.net/software/antconc/)
 - [LancsBox](http://corpora.lancs.ac.uk/lancsbox/)
 - [WordSmith](https://www.lexically.net/wordsmith/)
+- [english-corpora.org](https://english-corpora.org/)
+
 
 ## Main features {.smaller}
 
