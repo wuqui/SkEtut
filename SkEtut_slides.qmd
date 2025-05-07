@@ -1,0 +1,12 @@
+---
+title: Sketch Engine tutorial
+author: Quirin Würschinger
+# date: 2023-01-19
+date-format: long
+format:
+  revealjs:
+    embed-resources: true
+    slide-number: true
+---
+
+{{< include _SkEtut_content.qmd >}} 

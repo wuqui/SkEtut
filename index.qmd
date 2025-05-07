@@ -1,0 +1,7 @@
+---
+title: "Sketch Engine Tutorial - Web"
+author: "Quirin Würschinger"
+date-format: long
+---
+
+{{< include _SkEtut_content.qmd >}} 

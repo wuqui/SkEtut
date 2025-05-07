@@ -1,8 +1,929 @@
-<html xmlns="http://www.w3.org/1999/xhtml">    
-  <head>      
-    <title>Redirect to SkEtut.html</title>      
-    <meta http-equiv="refresh" content="0;URL='SkEtut.html'" />    
-  </head>    
-  <body> 
-  </body>  
-</html>     
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.43">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Quirin Würschinger">
+
+<title>Sketch Engine Tutorial - Web – Sketch Engine tutorial</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-6bd9cfa162949bde0a231f530c97869d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Sketch Engine tutorial</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./SkEtut_slides.html"> 
+<span class="menu-text">Slides</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tutorial-materials" id="toc-tutorial-materials" class="nav-link active" data-scroll-target="#tutorial-materials">Tutorial materials</a></li>
+  <li><a href="#general-information" id="toc-general-information" class="nav-link" data-scroll-target="#general-information">General information</a>
+  <ul class="collapse">
+  <li><a href="#what-is-sketch-engine" id="toc-what-is-sketch-engine" class="nav-link" data-scroll-target="#what-is-sketch-engine">What is Sketch Engine?</a></li>
+  <li><a href="#related-tools" id="toc-related-tools" class="nav-link" data-scroll-target="#related-tools">Related tools</a></li>
+  <li><a href="#main-features" id="toc-main-features" class="nav-link" data-scroll-target="#main-features">Main features</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  </ul></li>
+  <li><a href="#compiling-corpora" id="toc-compiling-corpora" class="nav-link" data-scroll-target="#compiling-corpora">Compiling corpora</a>
+  <ul class="collapse">
+  <li><a href="#data-format" id="toc-data-format" class="nav-link" data-scroll-target="#data-format">Data format</a></li>
+  <li><a href="#raw-data" id="toc-raw-data" class="nav-link" data-scroll-target="#raw-data">Raw data</a>
+  <ul class="collapse">
+  <li><a href="#text-files" id="toc-text-files" class="nav-link" data-scroll-target="#text-files">Text files</a></li>
+  <li><a href="#tabular-data" id="toc-tabular-data" class="nav-link" data-scroll-target="#tabular-data">Tabular data</a></li>
+  </ul></li>
+  <li><a href="#uploading-files" id="toc-uploading-files" class="nav-link" data-scroll-target="#uploading-files">Uploading files</a></li>
+  <li><a href="#adding-and-editing-metadata" id="toc-adding-and-editing-metadata" class="nav-link" data-scroll-target="#adding-and-editing-metadata">Adding and editing metadata</a></li>
+  <li><a href="#processed-data" id="toc-processed-data" class="nav-link" data-scroll-target="#processed-data">Processed data</a></li>
+  </ul></li>
+  <li><a href="#analysing-data" id="toc-analysing-data" class="nav-link" data-scroll-target="#analysing-data">Analysing data</a>
+  <ul class="collapse">
+  <li><a href="#dashboard" id="toc-dashboard" class="nav-link" data-scroll-target="#dashboard">Dashboard</a></li>
+  <li><a href="#available-corpora" id="toc-available-corpora" class="nav-link" data-scroll-target="#available-corpora">Available corpora</a></li>
+  <li><a href="#subcorpora" id="toc-subcorpora" class="nav-link" data-scroll-target="#subcorpora">Subcorpora</a></li>
+  <li><a href="#queries" id="toc-queries" class="nav-link" data-scroll-target="#queries">Queries</a>
+  <ul class="collapse">
+  <li><a href="#basic-queries" id="toc-basic-queries" class="nav-link" data-scroll-target="#basic-queries">Basic queries</a></li>
+  <li><a href="#advanced-cql-queries" id="toc-advanced-cql-queries" class="nav-link" data-scroll-target="#advanced-cql-queries">Advanced (CQL) queries</a></li>
+  <li><a href="#filtering-by-metadata" id="toc-filtering-by-metadata" class="nav-link" data-scroll-target="#filtering-by-metadata">Filtering by metadata</a></li>
+  </ul></li>
+  <li><a href="#concordance-view" id="toc-concordance-view" class="nav-link" data-scroll-target="#concordance-view">Concordance view</a></li>
+  <li><a href="#collocations" id="toc-collocations" class="nav-link" data-scroll-target="#collocations">Collocations</a></li>
+  <li><a href="#word-sketches" id="toc-word-sketches" class="nav-link" data-scroll-target="#word-sketches">Word sketches</a>
+  <ul class="collapse">
+  <li><a href="#word-sketch-difference-between-two-wordsphrases" id="toc-word-sketch-difference-between-two-wordsphrases" class="nav-link" data-scroll-target="#word-sketch-difference-between-two-wordsphrases">Word sketch difference: between two words/phrases</a></li>
+  <li><a href="#word-sketch-difference-between-two-subcorpora" id="toc-word-sketch-difference-between-two-subcorpora" class="nav-link" data-scroll-target="#word-sketch-difference-between-two-subcorpora">Word sketch difference: between two subcorpora</a></li>
+  <li><a href="#visualizations" id="toc-visualizations" class="nav-link" data-scroll-target="#visualizations">Visualizations</a></li>
+  </ul></li>
+  <li><a href="#annotating-data" id="toc-annotating-data" class="nav-link" data-scroll-target="#annotating-data">Annotating data</a></li>
+  <li><a href="#exporting-data" id="toc-exporting-data" class="nav-link" data-scroll-target="#exporting-data">Exporting data</a></li>
+  </ul></li>
+  <li><a href="#use-cases" id="toc-use-cases" class="nav-link" data-scroll-target="#use-cases">Use cases</a>
+  <ul class="collapse">
+  <li><a href="#compiling-a-corpus-dead-authors-minds" id="toc-compiling-a-corpus-dead-authors-minds" class="nav-link" data-scroll-target="#compiling-a-corpus-dead-authors-minds">Compiling a corpus: dead authors’ minds</a></li>
+  <li><a href="#studying-syntactic-constructions-the-n-be-that" id="toc-studying-syntactic-constructions-the-n-be-that" class="nav-link" data-scroll-target="#studying-syntactic-constructions-the-n-be-that">Studying syntactic constructions: <em>the N BE that</em></a>
+  <ul class="collapse">
+  <li><a href="#search-for-target-construction" id="toc-search-for-target-construction" class="nav-link" data-scroll-target="#search-for-target-construction">Search for target construction</a></li>
+  </ul></li>
+  <li><a href="#comparing-collocational-profiles" id="toc-comparing-collocational-profiles" class="nav-link" data-scroll-target="#comparing-collocational-profiles">Comparing collocational profiles</a></li>
+  <li><a href="#investigating-frequency-over-time-the-rise-of-whatever" id="toc-investigating-frequency-over-time-the-rise-of-whatever" class="nav-link" data-scroll-target="#investigating-frequency-over-time-the-rise-of-whatever">Investigating frequency over time: the rise of <em>whatever</em></a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Sketch Engine Tutorial - Web</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Quirin Würschinger </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="tutorial-materials" class="level1 smaller">
+<h1 class="smaller">Tutorial materials</h1>
+<p>You can find all materials on this GitHub repo: <a href="https://github.com/wuqui/SkEtut" class="uri">https://github.com/wuqui/SkEtut</a></p>
+<ul>
+<li>website: <a href="https://wuqui.github.io/SkEtut/" class="uri">https://wuqui.github.io/SkEtut/</a></li>
+<li>slides: <a href="https://wuqui.github.io/SkEtut/SkEtut_slides.html" class="uri">https://wuqui.github.io/SkEtut/SkEtut_slides.html</a></li>
+<li>data: <a href="https://github.com/wuqui/SkEtut/tree/main/data" class="uri">https://github.com/wuqui/SkEtut/tree/main/data</a></li>
+<li>results: <a href="https://github.com/wuqui/SkEtut/tree/main/export" class="uri">https://github.com/wuqui/SkEtut/tree/main/export</a></li>
+</ul>
+<p>I will continue to work on these materials and would appreciate questions, comments, and contributions via mail or on GitHub.</p>
+</section>
+<section id="general-information" class="level1">
+<h1>General information</h1>
+<section id="what-is-sketch-engine" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="what-is-sketch-engine">What is Sketch Engine?</h2>
+<p><img src="att/what-is-sketch-engine.png" height="500"></p>
+<p><a href="https://www.sketchengine.eu" class="uri">https://www.sketchengine.eu</a></p>
+</section>
+<section id="related-tools" class="level2">
+<h2 class="anchored" data-anchor-id="related-tools">Related tools</h2>
+<ul>
+<li><a href="https://www.laurenceanthony.net/software/antconc/">AntConc</a></li>
+<li><a href="http://corpora.lancs.ac.uk/lancsbox/">LancsBox</a></li>
+<li><a href="https://www.lexically.net/wordsmith/">WordSmith</a></li>
+<li><a href="https://english-corpora.org/">english-corpora.org</a></li>
+</ul>
+</section>
+<section id="main-features" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="main-features">Main features</h2>
+<p><em>corpus management</em></p>
+<ul>
+<li><strong>creating</strong> corpora from your own data</li>
+<li><strong>hosting</strong> these corpora online</li>
+<li><strong>annotating</strong> corpora</li>
+<li><strong>sharing</strong> your corpora</li>
+</ul>
+<p>. . .</p>
+<p><em>corpus analysis</em></p>
+<ul>
+<li>access to many <strong>pre-loaded corpora</strong></li>
+<li>simple and complex <strong>queries</strong></li>
+<li><strong>concordances</strong></li>
+<li><strong>collocation</strong> analysis</li>
+<li><strong>text type</strong> analysis</li>
+</ul>
+</section>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<p><a href="https://www.sketchengine.eu/quick-start-guide/" class="uri">https://www.sketchengine.eu/quick-start-guide/</a></p>
+<p><a href="https://www.sketchengine.eu/guide/" class="uri">https://www.sketchengine.eu/guide/</a></p>
+</section>
+</section>
+<section id="compiling-corpora" class="level1">
+<h1>Compiling corpora</h1>
+<section id="data-format" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="data-format">Data format</h2>
+<p><a href="https://www.sketchengine.eu/guide/create-corpus-from-files/" class="uri">https://www.sketchengine.eu/guide/create-corpus-from-files/</a></p>
+<p>texts <strong>without annotations</strong>: most common</p>
+<ul>
+<li>structure: (ideally) use <strong>1 document per file</strong></li>
+<li>file formats: <strong>plain text</strong>
+<ul>
+<li><code>.txt</code></li>
+<li><code>.csv</code></li>
+<li>…</li>
+</ul></li>
+</ul>
+<p><strong>annotated texts</strong>:</p>
+<ul>
+<li><code>.xml</code>: powerful, but more involved</li>
+</ul>
+</section>
+<section id="raw-data" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="raw-data">Raw data</h2>
+<section id="text-files" class="level3">
+<h3 class="anchored" data-anchor-id="text-files">Text files</h3>
+<p><img src="att/moby-dick-raw.png" height="400"></p>
+<p>Melville: <em>Moby Dick</em> – available as part of <a href="https://www.gutenberg.org/">Project Gutenberg</a></p>
+<hr>
+</section>
+<section id="tabular-data" class="level3">
+<h3 class="anchored" data-anchor-id="tabular-data">Tabular data</h3>
+<ol type="1">
+<li>extract the column containing the text body from your spreadsheet (e.g.&nbsp;in new sheet)</li>
+<li>export this column to <code>.csv</code></li>
+<li>you can then import this column in SkE just like a <code>.txt</code></li>
+</ol>
+<p>Note, however, that (meta)data in other columns will be lost<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
+</section>
+</section>
+<section id="uploading-files" class="level2">
+<h2 class="anchored" data-anchor-id="uploading-files">Uploading files</h2>
+<p><img src="att/add-texts.png" class="img-fluid"></p>
+</section>
+<section id="adding-and-editing-metadata" class="level2">
+<h2 class="anchored" data-anchor-id="adding-and-editing-metadata">Adding and editing metadata</h2>
+<div id="fig-adding-metadata" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-adding-metadata-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="att/edit-metadata.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-adding-metadata-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Adding and editing metadata
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="processed-data" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="processed-data">Processed data</h2>
+<p>After compiling: <code>vert</code> (‘vertical’) format – word per line (WPL)<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img src="att/moby-dick-vert-meta.png" height="300"></p>
+</div><div class="column" style="width:50%;">
+<p><img src="att/moby-dick-vert.png" height="350"></p>
+</div>
+</div>
+</section>
+</section>
+<section id="analysing-data" class="level1">
+<h1>Analysing data</h1>
+<section id="dashboard" class="level2">
+<h2 class="anchored" data-anchor-id="dashboard">Dashboard</h2>
+<p><img src="att/dashboard.png" class="img-fluid"></p>
+</section>
+<section id="available-corpora" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="available-corpora">Available corpora</h2>
+<p>Browse full list of (English) corpora <a href="https://app.sketchengine.eu/#corpus?tab=advanced&amp;cat=all&amp;sketches=0&amp;lang=en&amp;lang2=&amp;query=&amp;showOld=0">here</a>.</p>
+<p>Among others, …</p>
+<ul>
+<li><a href="https://app.sketchengine.eu/#dashboard?corpname=preloaded%2Fearly_english&amp;corp_info=1">English Historical Book Collection (EEBO, ECCO, Evans)</a>: ‘<strong>historical</strong> corpus collection of English books published in the UK and the USA between 1473 and 1820’</li>
+<li><a href="https://app.sketchengine.eu/#dashboard?corpname=preloaded%2Fgutenberg20_en&amp;corp_info=1">Gutenberg Project</a>: large <strong>book</strong> corpus; also available for other languages</li>
+<li><a href="https://app.sketchengine.eu/#dashboard?corpname=preloaded%2Fbnc2_tt21&amp;corp_info=1">British National Corpus (BNC)</a>: ‘A balanced English corpus of samples of a written and spoken language of <strong>British English</strong> from the later part of the 20th century (1969–1994)’</li>
+<li><a href="https://www.sketchengine.eu/ententen-english-corpus/">English Web 2020 (enTenTen20)</a>: big <strong>web</strong> corpus, including metadata about topics, genres, and web domains (e.g.&nbsp;<code>.com</code> vs <code>.co.uk</code>)</li>
+<li><a href="https://app.sketchengine.eu/#dashboard?corpname=preloaded%2Feng_jsi_newsfeed_virt&amp;corp_info=1">Timestamped JSI web corpus 2014-2021 English</a>: huge <strong>diachronic web</strong> corpus, annotated for topic, sentiment and more</li>
+</ul>
+</section>
+<section id="subcorpora" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="subcorpora">Subcorpora</h2>
+<p>You can create subcorpora for pre-loaded and self-compiled corpora based on</p>
+<ul>
+<li>all available <strong>metadata</strong> categories (e.g.&nbsp;timestamps, topics, filenames)</li>
+<li><strong>concordance</strong> searches</li>
+</ul>
+<p><img src="att/creating-subcorpora.png" class="img-fluid"></p>
+</section>
+<section id="queries" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="queries">Queries</h2>
+<p>You run queries from the <code>Concordance</code> view.</p>
+<p>There are two options:</p>
+<ul>
+<li><em>basic</em> searches: basic</li>
+<li><em>advanced</em> searches: more involved and powerful (e.g.&nbsp;searching for constructions based on lemmatized forms or word classes)</li>
+</ul>
+<p><img src="att/concordance-query-types.png" class="img-fluid"></p>
+<hr>
+<section id="basic-queries" class="level3">
+<h3 class="anchored" data-anchor-id="basic-queries">Basic queries</h3>
+<p><img src="att/simple-search.png" class="img-fluid"></p>
+<hr>
+</section>
+<section id="advanced-cql-queries" class="level3">
+<h3 class="anchored" data-anchor-id="advanced-cql-queries">Advanced (CQL) queries</h3>
+<p><img src="att/query-advanced-cql.png" class="img-fluid"></p>
+<p>Helpful: <a href="https://www.sketchengine.eu/documentation/corpus-querying/">manual</a> and <code>CQL builder</code>.</p>
+<hr>
+<p><img src="att/cql-builder.png" class="img-fluid"></p>
+<hr>
+<p>Extracting parts of your query matches using <code>within</code>:</p>
+<p><img src="att/queries-cql-within.png" class="img-fluid"></p>
+<hr>
+</section>
+<section id="filtering-by-metadata" class="level3">
+<h3 class="anchored" data-anchor-id="filtering-by-metadata">Filtering by metadata</h3>
+<p>Options:</p>
+<ul>
+<li>query metadata within <strong>CQL syntax</strong> (e.g.&nbsp;<code>[word="bank"] within &lt;doc topic="recreation" /&gt;</code>)</li>
+<li>perform ‘text type’<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> filtering using the <strong>dropdown menus</strong>, which is also available for simple queries (see above).</li>
+</ul>
+<hr>
+<p><img src="att/query-metadata-filter.png" height="400"></p>
+</section>
+</section>
+<section id="concordance-view" class="level2">
+<h2 class="anchored" data-anchor-id="concordance-view">Concordance view</h2>
+<p><img src="att/concordance-view.png" class="img-fluid"></p>
+</section>
+<section id="collocations" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="collocations">Collocations</h2>
+<p><img src="att/collocations-commit.png" class="img-fluid"></p>
+<p>Additional measures (e.g.&nbsp;log likelihood) and other options are available in the advanced settings.</p>
+</section>
+<section id="word-sketches" class="level2">
+<h2 class="anchored" data-anchor-id="word-sketches">Word sketches</h2>
+<p><img src="att/word-sketch-categories-commit.png" class="img-fluid"></p>
+<hr>
+<section id="word-sketch-difference-between-two-wordsphrases" class="level3">
+<h3 class="anchored" data-anchor-id="word-sketch-difference-between-two-wordsphrases">Word sketch difference: between two words/phrases</h3>
+<p><img src="att/word-sketch-difference-deep-profound.png" class="img-fluid"></p>
+<hr>
+</section>
+<section id="word-sketch-difference-between-two-subcorpora" class="level3">
+<h3 class="anchored" data-anchor-id="word-sketch-difference-between-two-subcorpora">Word sketch difference: between two subcorpora</h3>
+<p><img src="att/word-sketch-difference-bank-business-recreation.png" class="img-fluid"></p>
+</section>
+<section id="visualizations" class="level3">
+<h3 class="anchored" data-anchor-id="visualizations">Visualizations</h3>
+<p><img src="att/word-sketch-visual-life.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="annotating-data" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="annotating-data">Annotating data</h2>
+<p><strong>for metadata</strong>: see <a href="#fig-adding-metadata" class="quarto-xref">Figure&nbsp;1</a> above</p>
+<p><strong>for concordance lines</strong>:</p>
+<p><img src="att/annotating-concordance-lines.png" class="img-fluid"></p>
+</section>
+<section id="exporting-data" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="exporting-data">Exporting data</h2>
+<p>Almost everything can be exported:</p>
+<ul>
+<li>your entire annotated <strong>corpora</strong></li>
+<li>results from <strong>queries/concordances</strong></li>
+<li>results from <strong>collocations</strong></li>
+<li>results from <strong>word sketches</strong></li>
+</ul>
+<p>I recommend exporting data in <code>.xlsx</code> format, since this seems to be best supported by SkE.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p>
+</section>
+</section>
+<section id="use-cases" class="level1">
+<h1>Use cases</h1>
+<section id="compiling-a-corpus-dead-authors-minds" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="compiling-a-corpus-dead-authors-minds">Compiling a corpus: dead authors’ minds</h2>
+<p>See Section <em>Compiling corpora</em> above.</p>
+<p><strong>Sharing corpora</strong>: the toy corpus of Gutenberg books that I created for this tutorial is named <code>qw-gutenberg</code> and it should be accessible by all LMUlers.</p>
+<p><img src="att/corpus-sharing.png" class="img-fluid"></p>
+</section>
+<section id="studying-syntactic-constructions-the-n-be-that" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="studying-syntactic-constructions-the-n-be-that">Studying syntactic constructions: <em>the N BE that</em></h2>
+<p>Select pre-loaded corpus: <a href="https://app.sketchengine.eu/#concordance?corpname=preloaded%2Fgutenberg20_en&amp;corp_info=1">Gutenberg English 2020</a></p>
+<p><img src="att/corp-gutenberg-preloaded.png" class="img-fluid"></p>
+<p>Query inspired by: Schmid, Hans-Jörg, and Annette Mantlik. 2015. ‘Entrenchment in Historical Corpora? Reconstructing Dead Authors’ Minds from Their Usage Profiles’. <em>Anglia</em> 133 (4): 583—623.</p>
+<hr>
+<section id="search-for-target-construction" class="level3">
+<h3 class="anchored" data-anchor-id="search-for-target-construction">Search for target construction</h3>
+<p><img src="att/queries-cql-within.png" class="img-fluid"></p>
+<hr>
+<p>Get frequency distribution of nouns in target construction:</p>
+<p><img src="att/the-n-be-that-get-freq.png" class="img-fluid"></p>
+<hr>
+<p>Distribution across all authors in SkE:</p>
+<p><img src="att/the-n-be-that-get-freq-results.png" height="500"></p>
+<hr>
+<p>Plot in exported Excel file:</p>
+<p><img src="att/the-n-be-that-get-freq-results-excel.png" class="img-fluid"></p>
+<hr>
+<p>Individual analysis on Samuel Pepys’ works:</p>
+<p><img src="att/the-n-be-that-pepys-query.png" class="img-fluid"></p>
+<hr>
+<p>Results for Samuel Pepys:</p>
+<p><img src="att/the-n-be-that-pepys-results.png" height="400"></p>
+</section>
+</section>
+<section id="comparing-collocational-profiles" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="comparing-collocational-profiles">Comparing collocational profiles</h2>
+<p><strong>corpus</strong>: enTenTen20</p>
+<p><strong>method</strong>: for the lemma <em>bank</em><sup>n</sup>, get word sketch differences between texts with <code>recreation</code> and <code>business</code> as topics</p>
+<p><img src="att/bank-word-sketch-diff-query.png" class="img-fluid"></p>
+<hr>
+<p>Results:</p>
+<p><img src="att/bank-word-sketch-diff-results.png" class="img-fluid"></p>
+</section>
+<section id="investigating-frequency-over-time-the-rise-of-whatever" class="level2">
+<h2 class="anchored" data-anchor-id="investigating-frequency-over-time-the-rise-of-whatever">Investigating frequency over time: the rise of <em>whatever</em></h2>
+<p>corpus: <a href="https://app.sketchengine.eu/#trends?corpname=preloaded%2Fearly_english&amp;tab=basic&amp;structattr=doc.decade&amp;trends_attr=lemma&amp;showresults=1&amp;corp_info=1">English Historical Book Collection (EEBO, ECCO, Evans)</a></p>
+<ol type="1">
+<li>Identify words that have significantly increased or decreased in frequency over time using the <strong>trends</strong> feature:</li>
+</ol>
+<p><img src="att/whatever-trends-query.png" class="img-fluid"></p>
+<hr>
+<p>Results:</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img src="att/whatever-trends-results-pos.png" height="400"></p>
+</div><div class="column" style="width:50%;">
+<p><img src="att/whatever-trends-results-neg.png" height="400"></p>
+</div>
+</div>
+<hr>
+<ol start="2" type="1">
+<li>Investigating the frequency increase of <em>whatever</em>:</li>
+</ol>
+<p><img src="att/whatever-trends-freq-diac-query.png" class="img-fluid"></p>
+<hr>
+<p>Results:</p>
+<p><img src="att/whatever-trends-freq-diac-results.png" class="img-fluid"></p>
+<hr>
+<p>Plotting the exported version in Excel:</p>
+<p><img src="att/whatever-trends-freq-diac-results-excel.png" class="img-fluid"></p>
+
+
+</section>
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>To preserve these data, you would have to convert your tabular data (<code>.xlsx</code> or <code>.csv</code>) into <code>xml</code> format before importing.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>More precisely: one <em>token</em> per line, including puctuation: e.g.&nbsp;<code>it</code>, ‘'s’, <code>,</code>.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>‘Text types’ in SkE are not text types in the linguistic sense, but in the technical sense: documents have different text types if they differ regarding any metadata category. For example, two ‘types’ could be texts tagged for <code>&lt;doc year="1900"&gt;</code> vs <code>&lt;doc year="2000"&gt;</code>.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>When exporting to <code>csv</code>, be careful with decimal/thousands separator: when using the <code>Text to columns</code> option in Excel, use <code>.</code> as decimal and <code>,</code> as thousands separator (e.g.&nbsp;one thousand point five: <code>1,000.5</code>).<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

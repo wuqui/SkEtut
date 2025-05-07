@@ -1,156 +1,331 @@
 [
   {
-    "objectID": "SkEtut.html#what-is-sketch-engine",
-    "href": "SkEtut.html#what-is-sketch-engine",
+    "objectID": "SkEtut_slides.html#what-is-sketch-engine",
+    "href": "SkEtut_slides.html#what-is-sketch-engine",
     "title": "Sketch Engine tutorial",
     "section": "What is Sketch Engine?",
     "text": "What is Sketch Engine?\n\nhttps://www.sketchengine.eu"
   },
   {
-    "objectID": "SkEtut.html#related-tools",
-    "href": "SkEtut.html#related-tools",
+    "objectID": "SkEtut_slides.html#related-tools",
+    "href": "SkEtut_slides.html#related-tools",
     "title": "Sketch Engine tutorial",
     "section": "Related tools",
     "text": "Related tools\n\nAntConc\nLancsBox\nWordSmith\nenglish-corpora.org"
   },
   {
-    "objectID": "SkEtut.html#main-features",
-    "href": "SkEtut.html#main-features",
+    "objectID": "SkEtut_slides.html#main-features",
+    "href": "SkEtut_slides.html#main-features",
     "title": "Sketch Engine tutorial",
     "section": "Main features",
     "text": "Main features\ncorpus management\n\ncreating corpora from your own data\nhosting these corpora online\nannotating corpora\nsharing your corpora\n\n\ncorpus analysis\n\naccess to many pre-loaded corpora\nsimple and complex queries\nconcordances\ncollocation analysis\ntext type analysis"
   },
   {
-    "objectID": "SkEtut.html#resources",
-    "href": "SkEtut.html#resources",
+    "objectID": "SkEtut_slides.html#resources",
+    "href": "SkEtut_slides.html#resources",
     "title": "Sketch Engine tutorial",
     "section": "Resources",
     "text": "Resources\nhttps://www.sketchengine.eu/quick-start-guide/\nhttps://www.sketchengine.eu/guide/"
   },
   {
-    "objectID": "SkEtut.html#data-format",
-    "href": "SkEtut.html#data-format",
+    "objectID": "SkEtut_slides.html#data-format",
+    "href": "SkEtut_slides.html#data-format",
     "title": "Sketch Engine tutorial",
     "section": "Data format",
     "text": "Data format\nhttps://www.sketchengine.eu/guide/create-corpus-from-files/\ntexts without annotations: most common\n\nstructure: (ideally) use 1 document per file\nfile formats: plain text\n\n.txt\n.csv\n…\n\n\nannotated texts:\n\n.xml: powerful, but more involved"
   },
   {
-    "objectID": "SkEtut.html#raw-data",
-    "href": "SkEtut.html#raw-data",
+    "objectID": "SkEtut_slides.html#raw-data",
+    "href": "SkEtut_slides.html#raw-data",
     "title": "Sketch Engine tutorial",
     "section": "Raw data",
     "text": "Raw data\nText files\n\nMelville: Moby Dick – available as part of Project Gutenberg"
   },
   {
-    "objectID": "SkEtut.html#uploading-files",
-    "href": "SkEtut.html#uploading-files",
+    "objectID": "SkEtut_slides.html#uploading-files",
+    "href": "SkEtut_slides.html#uploading-files",
     "title": "Sketch Engine tutorial",
     "section": "Uploading files",
     "text": "Uploading files"
   },
   {
-    "objectID": "SkEtut.html#adding-and-editing-metadata",
-    "href": "SkEtut.html#adding-and-editing-metadata",
+    "objectID": "SkEtut_slides.html#adding-and-editing-metadata",
+    "href": "SkEtut_slides.html#adding-and-editing-metadata",
     "title": "Sketch Engine tutorial",
     "section": "Adding and editing metadata",
     "text": "Adding and editing metadata\n\n\nFigure 1: Adding and editing metadata"
   },
   {
-    "objectID": "SkEtut.html#processed-data",
-    "href": "SkEtut.html#processed-data",
+    "objectID": "SkEtut_slides.html#processed-data",
+    "href": "SkEtut_slides.html#processed-data",
     "title": "Sketch Engine tutorial",
     "section": "Processed data",
-    "text": "Processed data\nAfter compiling: vert (‘vertical’) format – word per line (WPL)1\n\n\n\n\n\n\nMore precisely: one token per line, including puctuation: e.g. it, 's, ,."
+    "text": "Processed data\nAfter compiling: vert (‘vertical’) format – word per line (WPL)1\n\n\n\n\n\n\nMore precisely: one token per line, including puctuation: e.g. it, ‘'s’, ,."
   },
   {
-    "objectID": "SkEtut.html#dashboard",
-    "href": "SkEtut.html#dashboard",
+    "objectID": "SkEtut_slides.html#dashboard",
+    "href": "SkEtut_slides.html#dashboard",
     "title": "Sketch Engine tutorial",
     "section": "Dashboard",
     "text": "Dashboard"
   },
   {
-    "objectID": "SkEtut.html#available-corpora",
-    "href": "SkEtut.html#available-corpora",
+    "objectID": "SkEtut_slides.html#available-corpora",
+    "href": "SkEtut_slides.html#available-corpora",
     "title": "Sketch Engine tutorial",
     "section": "Available corpora",
     "text": "Available corpora\nBrowse full list of (English) corpora here.\nAmong others, …\n\nEnglish Historical Book Collection (EEBO, ECCO, Evans): ‘historical corpus collection of English books published in the UK and the USA between 1473 and 1820’\nGutenberg Project: large book corpus; also available for other languages\nBritish National Corpus (BNC): ‘A balanced English corpus of samples of a written and spoken language of British English from the later part of the 20th century (1969–1994)’\nEnglish Web 2020 (enTenTen20): big web corpus, including metadata about topics, genres, and web domains (e.g. .com vs .co.uk)\nTimestamped JSI web corpus 2014-2021 English: huge diachronic web corpus, annotated for topic, sentiment and more"
   },
   {
-    "objectID": "SkEtut.html#subcorpora",
-    "href": "SkEtut.html#subcorpora",
+    "objectID": "SkEtut_slides.html#subcorpora",
+    "href": "SkEtut_slides.html#subcorpora",
     "title": "Sketch Engine tutorial",
     "section": "Subcorpora",
     "text": "Subcorpora\nYou can create subcorpora for pre-loaded and self-compiled corpora based on\n\nall available metadata categories (e.g. timestamps, topics, filenames)\nconcordance searches"
   },
   {
-    "objectID": "SkEtut.html#queries",
-    "href": "SkEtut.html#queries",
+    "objectID": "SkEtut_slides.html#queries",
+    "href": "SkEtut_slides.html#queries",
     "title": "Sketch Engine tutorial",
     "section": "Queries",
     "text": "Queries\nYou run queries from the Concordance view.\nThere are two options:\n\nbasic searches: basic\nadvanced searches: more involved and powerful (e.g. searching for constructions based on lemmatized forms or word classes)"
   },
   {
-    "objectID": "SkEtut.html#concordance-view",
-    "href": "SkEtut.html#concordance-view",
+    "objectID": "SkEtut_slides.html#concordance-view",
+    "href": "SkEtut_slides.html#concordance-view",
     "title": "Sketch Engine tutorial",
     "section": "Concordance view",
     "text": "Concordance view"
   },
   {
-    "objectID": "SkEtut.html#collocations",
-    "href": "SkEtut.html#collocations",
+    "objectID": "SkEtut_slides.html#collocations",
+    "href": "SkEtut_slides.html#collocations",
     "title": "Sketch Engine tutorial",
     "section": "Collocations",
     "text": "Collocations\n\nAdditional measures (e.g. log likelihood) and other options are available in the advanced settings."
   },
   {
-    "objectID": "SkEtut.html#word-sketches",
-    "href": "SkEtut.html#word-sketches",
+    "objectID": "SkEtut_slides.html#word-sketches",
+    "href": "SkEtut_slides.html#word-sketches",
     "title": "Sketch Engine tutorial",
     "section": "Word sketches",
     "text": "Word sketches"
   },
   {
-    "objectID": "SkEtut.html#annotating-data",
-    "href": "SkEtut.html#annotating-data",
+    "objectID": "SkEtut_slides.html#annotating-data",
+    "href": "SkEtut_slides.html#annotating-data",
     "title": "Sketch Engine tutorial",
     "section": "Annotating data",
     "text": "Annotating data\nfor metadata: see Figure 1 above\nfor concordance lines:"
   },
   {
-    "objectID": "SkEtut.html#exporting-data",
-    "href": "SkEtut.html#exporting-data",
+    "objectID": "SkEtut_slides.html#exporting-data",
+    "href": "SkEtut_slides.html#exporting-data",
     "title": "Sketch Engine tutorial",
     "section": "Exporting data",
     "text": "Exporting data\nAlmost everything can be exported:\n\nyour entire annotated corpora\nresults from queries/concordances\nresults from collocations\nresults from word sketches\n\nI recommend exporting data in .xlsx format, since this seems to be best supported by SkE.1\nWhen exporting to csv, be careful with decimal/thousands separator: when using the Text to columns option in Excel, use . as decimal and , as thousands separator (e.g. one thousand point five: 1,000.5)."
   },
   {
-    "objectID": "SkEtut.html#compiling-a-corpus-dead-authors-minds",
-    "href": "SkEtut.html#compiling-a-corpus-dead-authors-minds",
+    "objectID": "SkEtut_slides.html#compiling-a-corpus-dead-authors-minds",
+    "href": "SkEtut_slides.html#compiling-a-corpus-dead-authors-minds",
     "title": "Sketch Engine tutorial",
     "section": "Compiling a corpus: dead authors’ minds",
     "text": "Compiling a corpus: dead authors’ minds\nSee Section Compiling corpora above.\nSharing corpora: the toy corpus of Gutenberg books that I created for this tutorial is named qw-gutenberg and it should be accessible by all LMUlers."
   },
   {
-    "objectID": "SkEtut.html#studying-syntactic-constructions-the-n-be-that",
-    "href": "SkEtut.html#studying-syntactic-constructions-the-n-be-that",
+    "objectID": "SkEtut_slides.html#studying-syntactic-constructions-the-n-be-that",
+    "href": "SkEtut_slides.html#studying-syntactic-constructions-the-n-be-that",
     "title": "Sketch Engine tutorial",
     "section": "Studying syntactic constructions: the N BE that",
     "text": "Studying syntactic constructions: the N BE that\nSelect pre-loaded corpus: Gutenberg English 2020\n\nQuery inspired by: Schmid, Hans-Jörg, and Annette Mantlik. 2015. ‘Entrenchment in Historical Corpora? Reconstructing Dead Authors’ Minds from Their Usage Profiles’. Anglia 133 (4): 583—623."
   },
   {
-    "objectID": "SkEtut.html#comparing-collocational-profiles",
-    "href": "SkEtut.html#comparing-collocational-profiles",
+    "objectID": "SkEtut_slides.html#comparing-collocational-profiles",
+    "href": "SkEtut_slides.html#comparing-collocational-profiles",
     "title": "Sketch Engine tutorial",
     "section": "Comparing collocational profiles",
     "text": "Comparing collocational profiles\ncorpus: enTenTen20\nmethod: for the lemma bankn, get word sketch differences between texts with recreation and business as topics"
   },
   {
-    "objectID": "SkEtut.html#investigating-frequency-over-time-the-rise-of-whatever",
-    "href": "SkEtut.html#investigating-frequency-over-time-the-rise-of-whatever",
+    "objectID": "SkEtut_slides.html#investigating-frequency-over-time-the-rise-of-whatever",
+    "href": "SkEtut_slides.html#investigating-frequency-over-time-the-rise-of-whatever",
     "title": "Sketch Engine tutorial",
     "section": "Investigating frequency over time: the rise of whatever",
     "text": "Investigating frequency over time: the rise of whatever\ncorpus: English Historical Book Collection (EEBO, ECCO, Evans)\n\nIdentify words that have significantly increased or decreased in frequency over time using the trends feature:"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sketch Engine Tutorial - Web",
+    "section": "",
+    "text": "You can find all materials on this GitHub repo: https://github.com/wuqui/SkEtut\n\nwebsite: https://wuqui.github.io/SkEtut/\nslides: https://wuqui.github.io/SkEtut/SkEtut_slides.html\ndata: https://github.com/wuqui/SkEtut/tree/main/data\nresults: https://github.com/wuqui/SkEtut/tree/main/export\n\nI will continue to work on these materials and would appreciate questions, comments, and contributions via mail or on GitHub."
+  },
+  {
+    "objectID": "index.html#what-is-sketch-engine",
+    "href": "index.html#what-is-sketch-engine",
+    "title": "Sketch Engine Tutorial - Web",
+    "section": "What is Sketch Engine?",
+    "text": "What is Sketch Engine?\n\nhttps://www.sketchengine.eu"
+  },
+  {
+    "objectID": "index.html#related-tools",
+    "href": "index.html#related-tools",
+    "title": "Sketch Engine Tutorial - Web",
+    "section": "Related tools",
+    "text": "Related tools\n\nAntConc\nLancsBox\nWordSmith\nenglish-corpora.org"
+  },
+  {
+    "objectID": "index.html#main-features",
+    "href": "index.html#main-features",
+    "title": "Sketch Engine Tutorial - Web",
+    "section": "Main features",
+    "text": "Main features\ncorpus management\n\ncreating corpora from your own data\nhosting these corpora online\nannotating corpora\nsharing your corpora\n\n. . .\ncorpus analysis\n\naccess to many pre-loaded corpora\nsimple and complex queries\nconcordances\ncollocation analysis\ntext type analysis"
+  },
+  {
+    "objectID": "index.html#resources",
+    "href": "index.html#resources",
+    "title": "Sketch Engine Tutorial - Web",
+    "section": "Resources",
+    "text": "Resources\nhttps://www.sketchengine.eu/quick-start-guide/\nhttps://www.sketchengine.eu/guide/"
+  },
+  {
+    "objectID": "index.html#data-format",
+    "href": "index.html#data-format",
+    "title": "Sketch Engine Tutorial - Web",
+    "section": "Data format",
+    "text": "Data format\nhttps://www.sketchengine.eu/guide/create-corpus-from-files/\ntexts without annotations: most common\n\nstructure: (ideally) use 1 document per file\nfile formats: plain text\n\n.txt\n.csv\n…\n\n\nannotated texts:\n\n.xml: powerful, but more involved"
+  },
+  {
+    "objectID": "index.html#raw-data",
+    "href": "index.html#raw-data",
+    "title": "Sketch Engine Tutorial - Web",
+    "section": "Raw data",
+    "text": "Raw data\n\nText files\n\nMelville: Moby Dick – available as part of Project Gutenberg\n\n\n\nTabular data\n\nextract the column containing the text body from your spreadsheet (e.g. in new sheet)\nexport this column to .csv\nyou can then import this column in SkE just like a .txt\n\nNote, however, that (meta)data in other columns will be lost1."
+  },
+  {
+    "objectID": "index.html#uploading-files",
+    "href": "index.html#uploading-files",
+    "title": "Sketch Engine Tutorial - Web",
+    "section": "Uploading files",
+    "text": "Uploading files"
+  },
+  {
+    "objectID": "index.html#adding-and-editing-metadata",
+    "href": "index.html#adding-and-editing-metadata",
+    "title": "Sketch Engine Tutorial - Web",
+    "section": "Adding and editing metadata",
+    "text": "Adding and editing metadata\n\n\n\n\n\n\nFigure 1: Adding and editing metadata"
+  },
+  {
+    "objectID": "index.html#processed-data",
+    "href": "index.html#processed-data",
+    "title": "Sketch Engine Tutorial - Web",
+    "section": "Processed data",
+    "text": "Processed data\nAfter compiling: vert (‘vertical’) format – word per line (WPL)2"
+  },
+  {
+    "objectID": "index.html#dashboard",
+    "href": "index.html#dashboard",
+    "title": "Sketch Engine Tutorial - Web",
+    "section": "Dashboard",
+    "text": "Dashboard"
+  },
+  {
+    "objectID": "index.html#available-corpora",
+    "href": "index.html#available-corpora",
+    "title": "Sketch Engine Tutorial - Web",
+    "section": "Available corpora",
+    "text": "Available corpora\nBrowse full list of (English) corpora here.\nAmong others, …\n\nEnglish Historical Book Collection (EEBO, ECCO, Evans): ‘historical corpus collection of English books published in the UK and the USA between 1473 and 1820’\nGutenberg Project: large book corpus; also available for other languages\nBritish National Corpus (BNC): ‘A balanced English corpus of samples of a written and spoken language of British English from the later part of the 20th century (1969–1994)’\nEnglish Web 2020 (enTenTen20): big web corpus, including metadata about topics, genres, and web domains (e.g. .com vs .co.uk)\nTimestamped JSI web corpus 2014-2021 English: huge diachronic web corpus, annotated for topic, sentiment and more"
+  },
+  {
+    "objectID": "index.html#subcorpora",
+    "href": "index.html#subcorpora",
+    "title": "Sketch Engine Tutorial - Web",
+    "section": "Subcorpora",
+    "text": "Subcorpora\nYou can create subcorpora for pre-loaded and self-compiled corpora based on\n\nall available metadata categories (e.g. timestamps, topics, filenames)\nconcordance searches"
+  },
+  {
+    "objectID": "index.html#queries",
+    "href": "index.html#queries",
+    "title": "Sketch Engine Tutorial - Web",
+    "section": "Queries",
+    "text": "Queries\nYou run queries from the Concordance view.\nThere are two options:\n\nbasic searches: basic\nadvanced searches: more involved and powerful (e.g. searching for constructions based on lemmatized forms or word classes)\n\n\n\n\nBasic queries\n\n\n\n\nAdvanced (CQL) queries\n\nHelpful: manual and CQL builder.\n\n\n\nExtracting parts of your query matches using within:\n\n\n\n\nFiltering by metadata\nOptions:\n\nquery metadata within CQL syntax (e.g. [word=\"bank\"] within &lt;doc topic=\"recreation\" /&gt;)\nperform ‘text type’3 filtering using the dropdown menus, which is also available for simple queries (see above)."
+  },
+  {
+    "objectID": "index.html#concordance-view",
+    "href": "index.html#concordance-view",
+    "title": "Sketch Engine Tutorial - Web",
+    "section": "Concordance view",
+    "text": "Concordance view"
+  },
+  {
+    "objectID": "index.html#collocations",
+    "href": "index.html#collocations",
+    "title": "Sketch Engine Tutorial - Web",
+    "section": "Collocations",
+    "text": "Collocations\n\nAdditional measures (e.g. log likelihood) and other options are available in the advanced settings."
+  },
+  {
+    "objectID": "index.html#word-sketches",
+    "href": "index.html#word-sketches",
+    "title": "Sketch Engine Tutorial - Web",
+    "section": "Word sketches",
+    "text": "Word sketches\n\n\n\nWord sketch difference: between two words/phrases\n\n\n\n\nWord sketch difference: between two subcorpora\n\n\n\nVisualizations"
+  },
+  {
+    "objectID": "index.html#annotating-data",
+    "href": "index.html#annotating-data",
+    "title": "Sketch Engine Tutorial - Web",
+    "section": "Annotating data",
+    "text": "Annotating data\nfor metadata: see Figure 1 above\nfor concordance lines:"
+  },
+  {
+    "objectID": "index.html#exporting-data",
+    "href": "index.html#exporting-data",
+    "title": "Sketch Engine Tutorial - Web",
+    "section": "Exporting data",
+    "text": "Exporting data\nAlmost everything can be exported:\n\nyour entire annotated corpora\nresults from queries/concordances\nresults from collocations\nresults from word sketches\n\nI recommend exporting data in .xlsx format, since this seems to be best supported by SkE.4"
+  },
+  {
+    "objectID": "index.html#compiling-a-corpus-dead-authors-minds",
+    "href": "index.html#compiling-a-corpus-dead-authors-minds",
+    "title": "Sketch Engine Tutorial - Web",
+    "section": "Compiling a corpus: dead authors’ minds",
+    "text": "Compiling a corpus: dead authors’ minds\nSee Section Compiling corpora above.\nSharing corpora: the toy corpus of Gutenberg books that I created for this tutorial is named qw-gutenberg and it should be accessible by all LMUlers."
+  },
+  {
+    "objectID": "index.html#studying-syntactic-constructions-the-n-be-that",
+    "href": "index.html#studying-syntactic-constructions-the-n-be-that",
+    "title": "Sketch Engine Tutorial - Web",
+    "section": "Studying syntactic constructions: the N BE that",
+    "text": "Studying syntactic constructions: the N BE that\nSelect pre-loaded corpus: Gutenberg English 2020\n\nQuery inspired by: Schmid, Hans-Jörg, and Annette Mantlik. 2015. ‘Entrenchment in Historical Corpora? Reconstructing Dead Authors’ Minds from Their Usage Profiles’. Anglia 133 (4): 583—623.\n\n\nSearch for target construction\n\n\nGet frequency distribution of nouns in target construction:\n\n\nDistribution across all authors in SkE:\n\n\nPlot in exported Excel file:\n\n\nIndividual analysis on Samuel Pepys’ works:\n\n\nResults for Samuel Pepys:"
+  },
+  {
+    "objectID": "index.html#comparing-collocational-profiles",
+    "href": "index.html#comparing-collocational-profiles",
+    "title": "Sketch Engine Tutorial - Web",
+    "section": "Comparing collocational profiles",
+    "text": "Comparing collocational profiles\ncorpus: enTenTen20\nmethod: for the lemma bankn, get word sketch differences between texts with recreation and business as topics\n\n\nResults:"
+  },
+  {
+    "objectID": "index.html#investigating-frequency-over-time-the-rise-of-whatever",
+    "href": "index.html#investigating-frequency-over-time-the-rise-of-whatever",
+    "title": "Sketch Engine Tutorial - Web",
+    "section": "Investigating frequency over time: the rise of whatever",
+    "text": "Investigating frequency over time: the rise of whatever\ncorpus: English Historical Book Collection (EEBO, ECCO, Evans)\n\nIdentify words that have significantly increased or decreased in frequency over time using the trends feature:\n\n\n\nResults:\n\n\n\n\n\n\n\n\n\nInvestigating the frequency increase of whatever:\n\n\n\nResults:\n\n\nPlotting the exported version in Excel:"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "Sketch Engine Tutorial - Web",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nTo preserve these data, you would have to convert your tabular data (.xlsx or .csv) into xml format before importing.↩︎\nMore precisely: one token per line, including puctuation: e.g. it, ‘'s’, ,.↩︎\n‘Text types’ in SkE are not text types in the linguistic sense, but in the technical sense: documents have different text types if they differ regarding any metadata category. For example, two ‘types’ could be texts tagged for &lt;doc year=\"1900\"&gt; vs &lt;doc year=\"2000\"&gt;.↩︎\nWhen exporting to csv, be careful with decimal/thousands separator: when using the Text to columns option in Excel, use . as decimal and , as thousands separator (e.g. one thousand point five: 1,000.5).↩︎"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This is a placeholder about page."
   }
 ]
